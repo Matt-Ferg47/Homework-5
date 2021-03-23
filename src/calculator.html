@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ens">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="../style/calculator.css">
+        <script src="../scripts/calculator.js"></script>
+    </head>
+    <body>
+        <nav>
+            <div id="display"></div>
+            <div id="zero" onclick="insertChar(0)">0</div>
+            <div id="one" onclick="insertChar(1)">1</div>
+            <div id="two" onclick="insertChar(2)">2</div>
+            <div id="three" onclick="insertChar(3)">3</div>
+            <div id="four" onclick="insertChar(4)">4</div>
+            <div id="five" onclick="insertChar(5)">5</div>
+            <div id="six" onclick="insertChar(6)">6</div>
+            <div id="seven" onclick="insertChar(7)">7</div>
+            <div id="eight" onclick="insertChar(8)">8</div>
+            <div id="nine" onclick="insertChar(9)">9</div>
+            <div id="plus" onclick="insertChar('+')">+</div>
+            <div id="minus" onclick="insertChar('-')">-</div>
+            <div id="multiply" onclick="insertChar('*')">*</div>
+            <div id="divide" onclick="insertChar('/')">/</div>
+            <div id="equals" onclick="equals()">=</div>
+            <div id="clear" onclick="autoClear()">AC</div>
+        </nav>
+    </body>
+</html>
